@@ -1,0 +1,51 @@
+// Phone CSS
+
+body {
+	margin: 0 5px;
+	padding: 0;
+	font-family: Arial, sans-serif;
+}
+
+h1 {
+	font-size: 1.4em;
+	text-transform: uppercase;
+	color: #296989;
+}
+
+section ul {
+	padding: 0;
+}
+
+section li {
+	list-style: none;
+	a {
+		display: block;
+		padding: 10px 40px 10px 10px;
+		text-decoration: none;
+		background: #223C67 url(../images/icon_right_gold.png) no-repeat 95% center;
+		color: #fff;
+		border-bottom: 1px solid #fff;
+	}
+}
+
+section li:first-child a {
+	border-top-left-radius: $MobileNavBorderRadius;
+	border-top-right-radius: $MobileNavBorderRadius;
+}
+
+section li:last-child a {
+	border-bottom: none;
+	border-bottom-left-radius: $MobileNavBorderRadius;
+	border-bottom-right-radius: $MobileNavBorderRadius;
+}
+
+aside li {
+	margin-left: -36px;
+	list-style: none;
+	color: #065284;
+}
+
+footer {
+	height: 48px;
+	background: url(../images/UCBX_313Gradient-Mobile_Logo-300pxwide_trans.png) no-repeat;
+}

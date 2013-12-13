@@ -1,0 +1,11 @@
+// Main SCSS
+
+@import "normalize";
+@import "vars";
+@import "phone";
+@media all and (min-width: 45em) /* 720px */ {
+	@import "tablet";
+}
+@media all and (min-width: 62.500em) /* 1000px */ {
+	@import "desktop";
+}

@@ -1,0 +1,89 @@
+// Tablet CSS
+
+body {
+	margin: 0;
+	background: #ccc;
+}
+
+#container {
+	max-width: 1000px;
+	min-height: 1000px;
+	margin: 0 auto;
+	// background: url(../images/114-StartPage-1000x1000-REV2.jpg) no-repeat;
+	background: url(../images/114-StartPage-1000x1000-justBG-80quality.jpg) no-repeat;
+	background-size: contain;
+	overflow: hidden;
+}
+
+h1 {
+	margin: 0;
+	// font-size: 2.5em;
+	font-size: 2.25em;
+	font-weight: bold;
+	color: #fff;
+	text-shadow: 2px 2px 2px $TextShadowColor;
+}
+
+section, aside {
+	float: left;
+	// border: $TestBorder1;
+}
+
+section {
+	width: 60%;
+	margin: 100px 0 0 $LeftMargins;
+	// margin: 175px 0 0 4%;
+	// border: $TestBorder2;
+}
+
+section li {
+	background: url(../images/BlueGreen_Arrow_Btn-trans.png) no-repeat -5px -7px;
+	// margin: 0.9em 0;
+	margin: 0.8em 0;
+	padding-left: 35px;
+	padding-top: 0.1em; // aligns the text with the bullet
+	min-height: 26px; // so the bullet doesn't get clipped
+	a {
+		display: inline;
+		padding: 0;
+		background: none;
+		color: #000;
+		border-bottom: none;
+		font-size: 1.1em;
+		font-weight: bold;
+	}
+}
+
+section li:first-child a {
+	border-top-left-radius: none;
+	border-top-right-radius: none;
+}
+
+section li:last-child a {
+	border-bottom: none;
+	border-bottom-left-radius: none;
+	border-bottom-right-radius: none;
+}
+
+aside {
+	width: 30%;
+	margin: 99px 0 10px $LeftMargins;
+	padding: 0;
+	li {
+		margin: 0 0 1.3em -40px;
+		font-size: 1.35em;
+		// font-size: 1.5em;
+		// border: $TestBorder2;
+		text-shadow: 1px 1px 3px $TextShadowColor;
+	}
+}
+
+footer {
+	// margin-top: 41em;
+	clear: left;
+	height: 200px;
+	margin-left: 2%;
+	background: url(../images/114-StartPage-975x200-LogoLocations.png) no-repeat;
+	background-size: contain;
+	// border: $TestBorder1;
+}

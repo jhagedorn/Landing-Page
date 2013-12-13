@@ -1,0 +1,39 @@
+// Desktop CSS
+
+#container {
+	box-shadow: 0px 0px 20px #666;
+	// min-height: 921px;
+	min-height: 850px;
+	background-size: auto;
+}
+
+h1 {
+	// font-size: 3.1em;
+	font-size: 3.2em;
+}
+
+section {
+	min-height: 540px;
+	// margin: 100px 0 0 4%;
+	// margin: 175px 0 0 4%;
+}
+
+section li {
+	padding-top: 0;
+	margin: 1.2em 0;
+	a {
+		font-size: 1.2em;
+		font-weight: bold;
+		&:hover {
+			text-decoration: underline;
+		}
+	}
+}
+
+aside {
+	// margin: 183px 0 10px 4%;
+	margin: 108px 0 10px $LeftMargins;
+	li {
+		font-size: 1.7em;
+	}
+}

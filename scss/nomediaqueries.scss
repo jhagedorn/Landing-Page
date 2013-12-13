@@ -1,0 +1,11 @@
+// CSS for browsers that don't support media queries
+
+@import "normalize";
+@import "vars";
+@import "phone";
+@import "tablet";
+@import "desktop";
+
+#container {
+	width: 1000px;
+}
